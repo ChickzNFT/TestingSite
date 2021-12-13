@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.ttf'); /* IE9 Compat Modes */
+    src: url('Minecraft.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('Minecraft.ttf') format('woff2'), /* Super Modern Browsers */
+         url('Minecraft.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('Minecraft.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  body {
+    font-family: 'Minecraft', Fallback, sans-serif;
+  }
